@@ -19,7 +19,12 @@ void patron()
 
 void librarian()
 {
+	cout << "Please select an option:\n\t(1) Add book to inventory\n\t(2) Remove book from inventory\n\t(3) Add librarian\n>>";
 
+	string s = "";
+	int opt = -1;
+
+	cin >> s;
 }
 
 int main(int argc, char* argv[])
